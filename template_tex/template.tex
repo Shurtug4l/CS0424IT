@@ -25,24 +25,6 @@ For each of the following IP addresses, write the IP network, IP gateway,
 IP broadcast, which and how many octets are available for the hosts, 
 and which and how many are available for the network.
 
-\begin{warn}[Example for IP 10.240.0.0/24 \\]
-  \begin{tabular}{ | c | c | c | }
-    \hline
-    Address & $10.240.0.0$ & $00001010.11110000.00000000.00000000$ \\ 
-    \hline
-    Netmask /24 & $255.255.255.0$ & $11111111.11111111.11111111.00000000$ \\ 
-    \hline
-    Broadcast & $10.240.0.255$ & $00001010.11110000.00000000.11111111$ \\ 
-    \hline
-    First host & $10.240.0.1$ & $00001010.11110000.00000000.00000001$ \\
-    \hline
-    Last host & $10.240.0.254$ & $00001010.11110000.00000000.11111110$ \\
-    \hline
-    Hosts/Net & $254$ & \\
-    \hline
-  \end{tabular}
-\end{warn}
-
 \subsection*{IP: 1.1.1.1/8}
   \begin{itemize}
     \item Class: A
@@ -183,3 +165,92 @@ and which and how many are available for the network.
     \item Range of usable host addresses: $172.16.0.1 - 172.16.255.254$
   \end{itemize}
 \end{document}
+
+
+
+
+% Math equation/formula
+%\begin{equation}
+
+%\end{equation}
+
+%\begin{info} % Information block
+%	This is an interesting piece of information, to which the reader should pay special attention. Fusce varius orci ac magna dapibus porttitor. In tempor leo a neque bibendum sollicitudin. Nulla pretium fermentum nisi, eget sodales magna facilisis eu. Praesent aliquet nulla ut bibendum lacinia. Donec vel mauris vulputate, commodo ligula ut, egestas orci. Suspendisse commodo odio sed hendrerit lobortis. Donec finibus eros erat, vel ornare enim mattis et.
+%\end{info}
+
+
+% Numbered question, with subquestions in an enumerate environment
+%\begin{question}
+%	Quisque ullamcorper placerat ipsum. Cras nibh. Morbi vel justo vitae lacus tincidunt ultrices. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+	% Subquestions numbered with letters
+%	\begin{enumerate}[(a)]
+%		\item Do this.
+%		\item Do that.
+%		\item Do something else.
+%	\end{enumerate}
+%\end{question}
+
+
+%\subsection{Algorithmic issues}
+
+
+%\begin{center}
+%	\begin{minipage}{0.5\linewidth} % Adjust the minipage width to accomodate for the length of algorithm lines
+%		\begin{algorithm}[H]
+%			\KwIn{$(a, b)$, two floating-point numbers}  % Algorithm inputs
+%			\KwResult{$(c, d)$, such that $a+b = c + d$} % Algorithm outputs/results
+%			\medskip
+%			\If{$\vert b\vert > \vert a\vert$}{
+%				exchange $a$ and $b$ \;
+%			}
+%			$c \leftarrow a + b$ \;
+%			$z \leftarrow c - a$ \;
+%			$d \leftarrow b - z$ \;
+%			{\bf return} $(c,d)$ \;
+%			\caption{\texttt{FastTwoSum}} % Algorithm name
+%			\label{alg:fastTwoSum}   % optional label to refer to
+%		\end{algorithm}
+%	\end{minipage}
+%\end{center}
+
+
+% Numbered question, with an optional title
+%\begin{question}[\itshape (with optional title)]
+%	In congue risus leo, in gravida enim viverra id. Donec eros mauris, bibendum vel dui at, tempor commodo augue. In vel lobortis lacus. Nam ornare ullamcorper mauris vel molestie. Maecenas vehicula ornare turpis, vitae fringilla orci consectetur vel. Nam pulvinar justo nec neque egestas tristique. Donec ac dolor at libero congue varius sed vitae lectus. Donec et tristique nulla, sit amet scelerisque orci. Maecenas a vestibulum lectus, vitae gravida nulla. Proin eget volutpat orci. Morbi eu aliquet turpis. Vivamus molestie urna quis tempor tristique. Proin hendrerit sem nec tempor sollicitudin.
+%\end{question}
+
+
+%----------------------------------------------------------------------------------------
+%	PROBLEM 2
+%----------------------------------------------------------------------------------------
+
+%\section{Implementation}
+
+
+% File contents
+%\begin{file}[hello.py]
+%\begin{lstlisting}[language=Python]
+%#! /usr/bin/python
+
+%import sys
+%sys.stdout.write("Hello World!\n")
+%\end{lstlisting}
+%\end{file}
+
+
+% Command-line "screenshot"
+%\begin{commandline}
+%	\begin{verbatim}
+%		$ chmod +x hello.py
+%		$ ./hello.py
+%
+	%	Hello World!
+	%\end{verbatim}
+%\end{commandline}
+
+
+% Warning text, with a custom title
+%\begin{warn}[Notice:]
+%  In congue risus leo, in gravida enim viverra id. Donec eros mauris, bibendum vel dui at, tempor commodo augue. In vel lobortis lacus. Nam ornare ullamcorper mauris vel molestie. Maecenas vehicula ornare turpis, vitae fringilla orci consectetur vel. Nam pulvinar justo nec neque egestas tristique. Donec ac dolor at libero congue varius sed vitae lectus. Donec et tristique nulla, sit amet scelerisque orci. Maecenas a vestibulum lectus, vitae gravida nulla. Proin eget volutpat orci. Morbi eu aliquet turpis. Vivamus molestie urna quis tempor tristique. Proin hendrerit sem nec tempor sollicitudin.
+%\end{warn}
