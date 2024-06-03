@@ -230,6 +230,8 @@
 \newtheorem{problem}[theorem]{\notes@problemname}
 \newtheorem{notation}[theorem]{\notes@notationname}
 
+
+
 \newcommand{\notes@opensection}{}
 \ifthenelse{\equal{\notes@cleardoublepage}{true}}{\renewcommand{\notes@opensection}{\cleardoublepage\thispagestyle{plain}}}{}
 \titleformat{\subsection}{\relax\centering}{\thesubsection}{1em}{\large\itshape}
@@ -237,7 +239,9 @@
 \titleformat{\paragraph}[runin]{}{}{}{\normalsize\smallcaps}
 \PassOptionsToPackage{letterspace=1000}{microtype}
 \titleformat{\section}{\relax\centering\large\lsstyle}{\small{\thesection}}{0.5em}{\otherscshape\MakeLowercase}
+
 \PassOptionsToPackage{letterspace=0}{microtype}
+
 
 \renewcommand{\cftsecfont}{\normalfont}%
 \renewcommand{\cftsecpagefont}{\normalfont}%
