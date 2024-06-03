@@ -1,4 +1,4 @@
-\section{Networking}\lecture[4 hours]{28}{05}{2024}\lecture[4 hours]{29}{05}{2024}
+\section{Networking}
 \subsection{Network Categories: Geographical and Topological}
 \subsubsection{Geographical Networks}
 
@@ -157,7 +157,7 @@ ARP, or Address Resolution Protocol, is a network protocol used to map IP addres
 
 ARP is crucial for communication within the same local network. When a device needs to send data to another device within the same subnet, it uses ARP to discover the MAC address corresponding to the destination IP address.
 
-\paragraph{Virtual LAN (VLAN)}\lecture[4 hours]{30}{05}{2024}
+\paragraph{Virtual LAN (VLAN)}
 Switches allow the segmentation of broadcast domains through the creation of Virtual LANs (VLANs). A VLAN is a logical grouping of hosts and network devices. VLANs are created by adding a "tag" or VLAN ID to the switch ports, or by mapping the MAC address of the host to the VLAN ID.
 
 Assume we want to restrict communication and the broadcast domain to hosts A, B, and C. We create a VLAN identified by ID 100 and associate the MAC addresses of hosts A, B, and C with that VLAN.
@@ -197,6 +197,49 @@ The router will receive the packet and set:
 \end{itemize}
 
 Routers play a crucial role in network communication by enabling the routing of data between different subnets. This process involves intricate interactions between Layer 2 (MAC addresses) and Layer 3 (IP addresses) addressing schemes, ensuring seamless communication across diverse network segments.
+
+
+\paragraph{Subnetting}
+
+Subnetting is the process of dividing a larger network into smaller subnets. This helps in efficient IP address management, improves network performance, and enhances security.
+
+\textbf{Classless Inter-Domain Routing (CIDR)} is a method for allocating IP addresses and routing. CIDR notation specifies an IP address along with a routing prefix.
+
+Consider an IP address and subnet mask:
+
+\[
+\text{IP Address}: 192.168.1.0
+\]
+\[
+\text{Subnet Mask}: 255.255.255.0
+\]
+
+In CIDR notation, this is written as:
+
+\[
+192.168.1.0/24
+\]
+
+
+Let's divide this network into smaller subnets. For example, if we want to create four subnets, we need to borrow 2 bits from the host part of the address. The new subnet mask will be:
+
+\[
+255.255.255.192 \quad \text{or} \quad /26
+\]
+
+This gives us four subnets:
+
+\[
+\begin{array}{l l}
+\text{Subnet 1:} & 192.168.1.0/26 \quad \text{(Hosts: 192.168.1.1 - 192.168.1.62)} \\
+\text{Subnet 2:} & 192.168.1.64/26 \quad \text{(Hosts: 192.168.1.65 - 192.168.1.126)} \\
+\text{Subnet 3:} & 192.168.1.128/26 \quad \text{(Hosts: 192.168.1.129 - 192.168.1.190)} \\
+\text{Subnet 4:} & 192.168.1.192/26 \quad \text{(Hosts: 192.168.1.193 - 192.168.1.254)} \\
+\end{array}
+\]
+
+Each subnet provides 62 usable IP addresses (64 total addresses minus 2 for network and broadcast addresses).
+
 
 \subsubsection{\textbf{Transport Layer}}
 The transport layer, also known as layer 4 in the OSI model, is responsible for establishing a logical connection or channel between applications on different computers. It ensures the reliable transmission of data packets between a source and a destination. Packets may get lost during transmission due to network congestion, communication errors, or network issues. In some scenarios, minor transmission issues are tolerable, such as in phone conversations or video streaming, where a lost packet might result in a brief glitch. However, for activities like financial transactions or logging into a portal, it's crucial that communication is lossless.
