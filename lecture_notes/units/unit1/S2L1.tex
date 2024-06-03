@@ -1,5 +1,4 @@
-\section{Firewall \& Cryptography}
-\lecture[4 hours]{03}{06}{2024}
+\section{Firewall \& Cryptography}\lecture[4 hours]{03}{06}{2024}
 
 A firewall is a crucial component in the realm of cybersecurity. It acts as a barrier that protects a network or system from external threats by managing and filtering incoming and outgoing network traffic. Essentially, a firewall serves as a gatekeeper between an internal network and the broader internet, analyzing network traffic and determining whether to allow or block data packets based on pre-established security rules.
 
@@ -288,7 +287,7 @@ Symmetric key encryption is like a lock with a single key. Both the sender and r
     \item \textbf{Efficiency}: This method is fast and efficient but requires secure key management.
 \end{itemize}
 
-Symmetric Key Encryption Example Using AES:
+Symmetric Key Encryption example using Advanced Encryption Standard (AES):
 
 \begin{enumerate}
     \item \textbf{Preparation}:
@@ -348,11 +347,17 @@ Asymmetric key encryption, also known as public/private key encryption, involves
 
 \end{itemize}
 
-\subsection{What Is a VPN?}
+\subsection{Virtual Private Network (VPN)}
 
-A VPN, or Virtual Private Network, is a technology that creates a secure connection over the internet between your device and a remote server or between two devices.
+A VPN, or Virtual Private Network, is a technology that creates a secure connection over the internet between your device and a remote server or between two devices, as shown in \Cref{fig:vpn}.
 
-\subsubsection{Main Functions of a VPN}
+\begin{figure}[h!]
+    \begin{center}
+        \includegraphics[width=\textwidth]{images/vpn.jpg}
+        \caption{VPN functioning.}
+        \label{fig:vpn}
+    \end{center}
+\end{figure}
 
 \begin{itemize}
     \item \textbf{Security}: Encrypts traffic between your device and the VPN server, ensuring intercepted data cannot be read or interpreted.
