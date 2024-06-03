@@ -177,7 +177,7 @@
 \RequirePackage{Commons}
 \RequirePackage{csquotes}
 \addtolength{\jot}{0.5em} %Add row spacing to align environment
-\RequirePackage[verbose,a4paper,top=1.45in,bottom=1.35in,left=1in,right=2in,asymmetric,twoside]{geometry}
+\RequirePackage[verbose,a4paper,top=1.45in,bottom=1.35in,left=1in,right=1.7in,asymmetric,twoside]{geometry}
 \setlength\headheight{14pt}
 
 %\SetUnicodeOption{mathletters}
