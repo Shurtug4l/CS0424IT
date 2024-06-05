@@ -1,0 +1,138 @@
+\section{Programming Languages}
+\subsection{Introduction}
+Becoming an Ethical Hacker necessitates a profound understanding of various programming languages. Many hacking tools are custom-developed by hackers themselves, thus, a solid foundation in key programming languages is essential. This document explores some of the fundamental programming languages used in cybersecurity, particularly focusing on:
+
+\begin{itemize}
+    \item \textbf{C Language} is considered the foundation of many programming languages, with most libraries and Linux code written in C.
+    \item \textbf{Python Language}, an interpreted, object-oriented language, is widely used by hackers due to its simplicity and effectiveness.
+\end{itemize}
+
+\subsubsection{Classification of Programming Languages}
+Today, there are innumerable programming languages, which can be categorized into the following traditional classifications:
+\begin{itemize}
+    \item Machine Languages: in machine language, algorithms are encoded using binary code, often referred to as "words" of 0s and 1s (bits). The computer directly executes instructions written in machine language.
+    \item Assembly Languages: assembly language defines a set of elementary operations using a more human-readable syntax. This language is closer to human language but still requires a translator (assembler) for the computer to execute the code.
+    \item High-Level Languages: high-level programming languages are much closer to human languages. Their instructions are comprehensible and easy to use. However, they also require a translator (compiler or interpreter) to convert high-level language into machine language (sequences of 0s and 1s).
+\end{itemize}
+
+\subsubsection{Types of Translators}
+There are two primary types of translators:
+\begin{itemize}
+    \item Compiler: Translates a program written in a high-level language into machine language.
+    \item Interpreter: Analyzes and translates a program written in a high-level language and executes the instructions simultaneously.
+\end{itemize}
+
+\subsubsection{Error Types in Programming}
+When programming, it is beneficial to understand the types of errors that might be encountered. Programming errors can be divided into three categories:
+\begin{itemize}
+    \item Syntax Errors: Syntax errors are typographical mistakes made during the coding phase. These are the easiest to resolve as compilers often indicate the location of the error by providing the line number where the error occurred.
+    \item Logical Errors: Logical errors occur during the design phase of the algorithm. These are more challenging to fix because the compiler does not identify them; the program will still compile successfully.
+    \item Runtime Errors: Runtime errors occur post-compilation when the program is running. These are difficult to identify as they are not detected by the compiler.
+\end{itemize}
+
+
+\subsection{C Programming Language}
+
+The C programming language is a general-purpose, procedural computer programming language that was developed in the early 1970s by Dennis Ritchie at Bell Labs. It has since become one of the most widely used programming languages of all time due to its efficiency, portability, and flexibility.
+
+\subsubsection{Main Properties of C Language}
+\begin{itemize}
+    \item \textbf{Low-Level Access}: C provides low-level access to memory through pointers, making it ideal for system programming.
+    \item \textbf{Portability}: C programs can be compiled and run on various computer systems with minimal or no modification.
+    \item \textbf{Rich Library}: The Standard C Library provides numerous built-in functions for performing input/output, string manipulation, memory allocation, and more.
+    \item \textbf{Modularity}: C supports modular programming through the use of functions, allowing code to be organized and reused.
+    \item \textbf{Structured Language}: C allows complex programs to be broken into simpler subprograms or functions, facilitating easier management and debugging.
+\end{itemize}
+
+\section{Basic Syntax and Commands in C}
+\subsection{Data Types}
+C supports several built-in data types, which can be categorized as follows:
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Data Type} & \textbf{Description} & \textbf{Size (bytes)} \\
+\hline
+\texttt{int} & Integer & 2 or 4 \\
+\texttt{float} & Floating point & 4 \\
+\texttt{double} & Double precision floating point & 8 \\
+\texttt{char} & Character & 1 \\
+\texttt{void} & Empty type & 0 \\
+\hline
+\end{tabular}
+\caption{Basic Data Types in C}
+\label{table:data_types}
+\end{table}
+
+\subsubsection{Control Structures}
+C provides several control structures for directing the flow of a program:
+
+\begin{itemize}
+    \item \textbf{Conditional Statements}
+        \begin{itemize}
+            \item \texttt{if}, \texttt{else if}, \texttt{else}
+            \item \texttt{switch}, \texttt{case}, \texttt{default}
+        \end{itemize}
+    \item \textbf{Loops}
+        \begin{itemize}
+            \item \texttt{for} loop
+            \item \texttt{while} loop
+            \item \texttt{do-while} loop
+        \end{itemize}
+    \item \textbf{Jump Statements}
+        \begin{itemize}
+            \item \texttt{break}
+            \item \texttt{continue}
+            \item \texttt{return}
+            \item \texttt{goto}
+        \end{itemize}
+\end{itemize}
+
+\subsubsection{Functions}
+Functions in C are used to modularize code. The general form of a function definition is:
+
+\begin{verbatim}
+return_type function_name(parameters) {
+    // body of the function
+}
+\end{verbatim}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Keyword} & \textbf{Description} \\
+\hline
+\texttt{void} & Specifies that the function does not return a value \\
+\texttt{int} & Specifies that the function returns an integer value \\
+\texttt{float} & Specifies that the function returns a floating-point value \\
+\texttt{char} & Specifies that the function returns a character value \\
+\hline
+\end{tabular}
+\caption{Common Function Return Types in C}
+\label{table:function_return_types}
+\end{table}
+
+\subsubsection{Input/Output Operations}
+C uses the Standard Input and Output library (\texttt{stdio.h}) for input and output operations. The most commonly used functions are:
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Function} & \textbf{Description} \\
+\hline
+\texttt{printf()} & Prints formatted output to the console \\
+\texttt{scanf()} & Reads formatted input from the console \\
+\texttt{getchar()} & Reads a single character from the console \\
+\texttt{putchar()} & Writes a single character to the console \\
+\texttt{fgets()} & Reads a string from a file or the console \\
+\texttt{fputs()} & Writes a string to a file or the console \\
+\hline
+\end{tabular}
+\caption{Common Input/Output Functions in C}
+\label{table:io_functions}
+\end{table}
+
+The C programming language is foundational to many other programming languages and is extensively used in system and application software, embedded systems, and high-performance server and client applications. Its efficiency, portability, and modularity make it a valuable language to learn for aspiring ethical hackers and cybersecurity professionals.
