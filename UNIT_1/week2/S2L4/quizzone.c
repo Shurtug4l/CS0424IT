@@ -68,9 +68,20 @@ void mescola(Domanda *array, int n) {
 // Funzione per mostrare la leaderboard
 void mostraLeaderboard() {
   FILE *file = fopen(LEADERBOARD_FILE, "r");
+  // Se il file non esiste, apriamolo in modalità append per crearlo
   if (file == NULL) {
-    printf("Nessuna leaderboard trovata.\n\n\n");
-    return;
+    file = fopen(LEADERBOARD_FILE, "a");
+    if (file == NULL) {
+      printf("Errore nella creazione del file leaderboard.\n\n\n");
+      return;
+    }
+    fclose(file);
+    // Ora riapriamo il file in modalità lettura
+    file = fopen(LEADERBOARD_FILE, "r");
+    if (file == NULL) {
+      printf("Errore nell'apertura del file leaderboard.\n\n\n");
+      return;
+    }
   }
 
   printf("\n\n************************************************\n");
