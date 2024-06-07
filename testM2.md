@@ -1,6 +1,6 @@
 ### Memoria e Stack in C
 
-**Qual è la differenza principale tra stack e heap nella gestione della memoria in C?**
+**Qual è la differenza principale tra stack e heap nella gestione della memoria in C?**  
 A) Lo stack è gestito dal programmatore, mentre l'heap è gestito dal sistema operativo.
 B) Lo stack è utilizzato per le variabili locali e i parametri delle funzioni, mentre l'heap è utilizzato per la memoria dinamica.
 C) Lo stack cresce verso l'alto, mentre l'heap cresce verso il basso.
