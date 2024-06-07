@@ -1,34 +1,34 @@
 ### Memoria e Stack in C
 
 **Qual è la differenza principale tra stack e heap nella gestione della memoria in C?**  
-A) Lo stack è gestito dal programmatore, mentre l'heap è gestito dal sistema operativo.
-B) Lo stack è utilizzato per le variabili locali e i parametri delle funzioni, mentre l'heap è utilizzato per la memoria dinamica.
-C) Lo stack cresce verso l'alto, mentre l'heap cresce verso il basso.
-D) Lo stack è utilizzato solo per i puntatori, mentre l'heap è utilizzato solo per gli array.
+A) Lo stack è gestito dal programmatore, mentre l'heap è gestito dal sistema operativo.  
+B) Lo stack è utilizzato per le variabili locali e i parametri delle funzioni, mentre l'heap è utilizzato per la memoria dinamica.  
+C) Lo stack cresce verso l'alto, mentre l'heap cresce verso il basso.  
+D) Lo stack è utilizzato solo per i puntatori, mentre l'heap è utilizzato solo per gli array.  
 Risposta corretta: B​​
 - Lo stack viene utilizzato per gestire le variabili locali e i parametri delle funzioni in modo automatico, con allocazione e deallocazione gestite dal sistema. L'heap, invece, viene utilizzato per la memoria dinamica, che deve essere allocata e deallocata esplicitamente dal programmatore tramite funzioni come `malloc` e `free`.
 
-**Quale operazione viene eseguita per aggiungere un elemento sulla cima dello stack?**
-A) POP
-B) PUSH
-C) INSERT
-D) ADD
+**Quale operazione viene eseguita per aggiungere un elemento sulla cima dello stack?**  
+A) POP  
+B) PUSH  
+C) INSERT  
+D) ADD  
 Risposta corretta: B​​
 - L'operazione PUSH aggiunge un elemento in cima allo stack, mentre POP è l'operazione che rimuove l'elemento più in alto.
 
-**Quale operazione viene utilizzata per rimuovere l'elemento più in alto dello stack?**
-A) REMOVE
-B) DELETE
-C) POP
-D) DROP
+**Quale operazione viene utilizzata per rimuovere l'elemento più in alto dello stack?**  
+A) REMOVE  
+B) DELETE  
+C) POP  
+D) DROP  
 Risposta corretta: C
 - L'operazione POP rimuove l'elemento in cima allo stack, liberando la memoria allocata per l'elemento.
 
-**Cosa rappresenta l'acronimo LIFO, utilizzato per descrivere il comportamento dello stack?**
-A) Last In First Out
-B) Last In First Only
-C) Last In Fast Out
-D) Last In Fixed Order
+**Cosa rappresenta l'acronimo LIFO, utilizzato per descrivere il comportamento dello stack?**  
+A) Last In First Out  
+B) Last In First Only  
+C) Last In Fast Out  
+D) Last In Fixed Order  
 Risposta corretta: A
 - LIFO significa "Last In First Out", che indica che l'ultimo elemento aggiunto allo stack sarà il primo a essere rimosso.
 
