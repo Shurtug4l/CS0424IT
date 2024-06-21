@@ -1,0 +1,22 @@
+Inizio nuova sessione
+È stato creato il file di log
+2024-06-19 00:39:53,077 - INFO - Inizio scansione metodi HTTP su 192.168.50.101:80/
+2024-06-19 00:39:53,114 - INFO - Metodo OPTIONS all'indirizzo 192.168.50.101:80/ - Enabled
+2024-06-19 00:39:53,145 - INFO - Metodo GET all'indirizzo 192.168.50.101:80/ - Enabled
+2024-06-19 00:39:53,174 - INFO - Metodo HEAD all'indirizzo 192.168.50.101:80/ - Enabled
+2024-06-19 00:39:53,204 - INFO - Metodo POST all'indirizzo 192.168.50.101:80/ - Enabled
+2024-06-19 00:39:53,234 - INFO - Metodo PUT all'indirizzo 192.168.50.101:80/ - Enabled
+2024-06-19 00:39:53,263 - INFO - Metodo DELETE all'indirizzo 192.168.50.101:80/ - Enabled
+2024-06-19 00:39:53,266 - INFO - Metodo TRACE all'indirizzo 192.168.50.101:80/ - Enabled
+2024-06-19 00:39:53,267 - INFO - Metodo CONNECT all'indirizzo 192.168.50.101:80/ - Disabled
+2024-06-19 00:39:53,295 - INFO - Metodo PATCH all'indirizzo 192.168.50.101:80/ - Enabled
+2024-06-19 00:39:53,295 - INFO - Scansione terminata
+2024-06-19 00:39:53,295 - INFO - OPTIONS: Enabled
+2024-06-19 00:39:53,295 - INFO - GET: Enabled
+2024-06-19 00:39:53,296 - INFO - HEAD: Enabled
+2024-06-19 00:39:53,296 - INFO - POST: Enabled
+2024-06-19 00:39:53,296 - INFO - PUT: Enabled
+2024-06-19 00:39:53,296 - INFO - DELETE: Enabled
+2024-06-19 00:39:53,296 - INFO - TRACE: Enabled
+2024-06-19 00:39:53,296 - INFO - CONNECT: Disabled
+2024-06-19 00:39:53,296 - INFO - PATCH: Enabled

@@ -1,0 +1,32 @@
+
+Livello di sicurezza: login
+Tempo impiegato: 221.58 secondi
+Username: 1337, Password: charley
+Username: smithy, Password: password
+Username: admin, Password: password
+Username: gordonb, Password: abc123
+Username: pablo, Password: letmein
+
+Livello di sicurezza: low
+Tempo impiegato: 123.70 secondi
+Username: 1337, Password: charley
+Username: smithy, Password: password
+Username: admin, Password: password
+Username: gordonb, Password: abc123
+Username: pablo, Password: letmein
+
+Livello di sicurezza: medium
+Tempo impiegato: 127.35 secondi
+Username: 1337, Password: charley
+Username: smithy, Password: password
+Username: admin, Password: password
+Username: gordonb, Password: abc123
+Username: pablo, Password: letmein
+
+Livello di sicurezza: high
+Tempo impiegato: 4446.39 secondi
+Username: 1337, Password: charley
+Username: smithy, Password: password
+Username: admin, Password: password
+Username: gordonb, Password: abc123
+Username: pablo, Password: letmein
