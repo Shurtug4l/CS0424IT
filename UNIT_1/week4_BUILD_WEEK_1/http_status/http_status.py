@@ -46,6 +46,15 @@ def scan_http_methods(target_ip, port=80, path="/"):
         "TRACE",
         "CONNECT",
         "PATCH",
+        "PROPFIND",
+        "PROPPATCH",
+        "LOCK",
+        "UNLOCK",
+        "MOVE",
+        "COPY",
+        "LIST",
+        "ADD",
+        "REMOVE",
     ]  # Metodi HTTP da testare
     results = {}  # Dizionario per memorizzare i risultati della scansione
 
