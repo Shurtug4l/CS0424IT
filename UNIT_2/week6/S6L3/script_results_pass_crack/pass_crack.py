@@ -37,7 +37,7 @@ def dictionary_attack(hash_to_crack, wordlist):
 # Funzione per craccare con brute-force attack
 def brute_force_attack(hash_to_crack, max_length=6):
     start_time = time.time()
-    chars = string.ascii_lowercase + string.digits
+    chars = string.printable
     attempt = 0
     for length in range(1, max_length + 1):
         for guess in itertools.product(chars, repeat=length):
@@ -93,7 +93,7 @@ def rule_based_attack(hash_to_crack, wordlist):
                         f"Rule-based attack ha trovato la password: {modified_word} in {elapsed_time:.2e} secondi"
                     )
                     return modified_word, elapsed_time
-            # Aggiungi altre regole se necessario
+            # Aggiungere altre regole se necessario
     end_time = time.time()
     elapsed_time = end_time - start_time
     print(f"Rule-based attack non ha trovato la password in {elapsed_time:.2e} secondi")
