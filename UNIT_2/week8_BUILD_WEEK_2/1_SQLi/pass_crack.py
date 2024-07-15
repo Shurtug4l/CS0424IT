@@ -5,11 +5,7 @@ import time
 
 # Hash delle password da craccare
 hashes_to_crack = [
-    "49f68a5c8493ec2c0bf489821c21fc3b",
-    "06d80eb0c50b49a509b49f2424e8c805",
-    "48d6215903dff56238e52e8891380c8f",
-    "1f3870be274f6c49b3e31a0c6728957f",
-    "8621ffdbc5698829397d97767ac13db3",
+    "e99a18c428cb38d5f260853678922e03",
 ]
 
 
