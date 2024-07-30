@@ -1,0 +1,254 @@
+"Time of Day","Process Name","PID","Operation","Path","Result","Detail"
+"15:17:17,8910116","AdwereCleaner.exe","3984","Process Start","","SUCCESS","Parent PID: 1588, Command line: ""C:\Users\user\Desktop\malware1\S10L2\AdwereCleaner.exe"" , Current directory: C:\Users\user\Desktop\malware1\S10L2\, Environment: 
+;	=::=::\
+;	ALLUSERSPROFILE=C:\ProgramData
+;	APPDATA=C:\Users\user\AppData\Roaming
+;	CommonProgramFiles=C:\Program Files\Common Files
+;	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+;	CommonProgramW6432=C:\Program Files\Common Files
+;	COMPUTERNAME=USER-PC
+;	ComSpec=C:\Windows\system32\cmd.exe
+;	FP_NO_HOST_CHECK=NO
+;	HOMEDRIVE=C:
+;	HOMEPATH=\Users\user
+;	LOCALAPPDATA=C:\Users\user\AppData\Local
+;	LOGONSERVER=\\USER-PC
+;	NUMBER_OF_PROCESSORS=1
+;	OS=Windows_NT
+;	Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+;	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+;	PROCESSOR_ARCHITECTURE=AMD64
+;	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 190 Stepping 0, GenuineIntel
+;	PROCESSOR_LEVEL=6
+;	PROCESSOR_REVISION=be00
+;	ProgramData=C:\ProgramData
+;	ProgramFiles=C:\Program Files
+;	ProgramFiles(x86)=C:\Program Files (x86)
+;	ProgramW6432=C:\Program Files
+;	PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+;	PUBLIC=C:\Users\Public
+;	SESSIONNAME=Console
+;	SystemDrive=C:
+;	SystemRoot=C:\Windows
+;	TEMP=C:\Users\user\AppData\Local\Temp
+;	TMP=C:\Users\user\AppData\Local\Temp
+;	USERDOMAIN=user-PC
+;	USERNAME=user
+;	USERPROFILE=C:\Users\user
+;	windir=C:\Windows
+;	windows_tracing_flags=3
+;	windows_tracing_logfile=C:\BVTBin\Tests\installpackage\csilogfile.log"
+"15:17:17,8910186","AdwereCleaner.exe","3984","Thread Create","","SUCCESS","Thread ID: 3168"
+"15:17:17,9156962","AdwereCleaner.exe","3984","Load Image","C:\Users\user\Desktop\malware1\S10L2\AdwereCleaner.exe","SUCCESS","Image Base: 0x400000, Image Size: 0x43000"
+"15:17:17,9160398","AdwereCleaner.exe","3984","Load Image","C:\Windows\System32\ntdll.dll","SUCCESS","Image Base: 0x77ae0000, Image Size: 0x19f000"
+"15:17:17,9160979","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\ntdll.dll","SUCCESS","Image Base: 0x77ca0000, Image Size: 0x180000"
+"15:17:17,9184527","AdwereCleaner.exe","3984","Load Image","C:\Windows\System32\wow64.dll","SUCCESS","Image Base: 0x74290000, Image Size: 0x3f000"
+"15:17:17,9190729","AdwereCleaner.exe","3984","Load Image","C:\Windows\System32\wow64win.dll","SUCCESS","Image Base: 0x74230000, Image Size: 0x5c000"
+"15:17:17,9196009","AdwereCleaner.exe","3984","Load Image","C:\Windows\System32\wow64cpu.dll","SUCCESS","Image Base: 0x74220000, Image Size: 0x8000"
+"15:17:17,9199347","AdwereCleaner.exe","3984","Load Image","C:\Windows\System32\kernel32.dll","SUCCESS","Image Base: 0x779c0000, Image Size: 0x11f000"
+"15:17:17,9200173","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\kernel32.dll","SUCCESS","Image Base: 0x75c10000, Image Size: 0x110000"
+"15:17:17,9201381","AdwereCleaner.exe","3984","Load Image","C:\Windows\System32\kernel32.dll","SUCCESS","Image Base: 0x779c0000, Image Size: 0x11f000"
+"15:17:17,9202063","AdwereCleaner.exe","3984","Load Image","C:\Windows\System32\user32.dll","SUCCESS","Image Base: 0x778c0000, Image Size: 0xfa000"
+"15:17:17,9208401","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\kernel32.dll","SUCCESS","Image Base: 0x75c10000, Image Size: 0x110000"
+"15:17:17,9209897","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\KernelBase.dll","SUCCESS","Image Base: 0x75a20000, Image Size: 0x47000"
+"15:17:17,9218279","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\user32.dll","SUCCESS","Image Base: 0x771f0000, Image Size: 0x100000"
+"15:17:17,9219493","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\gdi32.dll","SUCCESS","Image Base: 0x75860000, Image Size: 0x90000"
+"15:17:17,9220888","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\lpk.dll","SUCCESS","Image Base: 0x75850000, Image Size: 0xa000"
+"15:17:17,9222015","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\usp10.dll","SUCCESS","Image Base: 0x76dc0000, Image Size: 0x9d000"
+"15:17:17,9222821","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\msvcrt.dll","SUCCESS","Image Base: 0x76ec0000, Image Size: 0xac000"
+"15:17:17,9225657","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\advapi32.dll","SUCCESS","Image Base: 0x76f70000, Image Size: 0xa1000"
+"15:17:17,9231368","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\sechost.dll","SUCCESS","Image Base: 0x75a00000, Image Size: 0x19000"
+"15:17:17,9232865","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\rpcrt4.dll","SUCCESS","Image Base: 0x758f0000, Image Size: 0xf0000"
+"15:17:17,9234228","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\sspicli.dll","SUCCESS","Image Base: 0x757f0000, Image Size: 0x60000"
+"15:17:17,9235163","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\cryptbase.dll","SUCCESS","Image Base: 0x757e0000, Image Size: 0xc000"
+"15:17:17,9237468","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\shell32.dll","SUCCESS","Image Base: 0x75e80000, Image Size: 0xc4a000"
+"15:17:17,9239026","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\shlwapi.dll","SUCCESS","Image Base: 0x77020000, Image Size: 0x57000"
+"15:17:18,0131784","AdwereCleaner.exe","3984","Load Image","C:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af\comctl32.dll","SUCCESS","Image Base: 0x6e580000, Image Size: 0x84000"
+"15:17:18,0168609","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\ole32.dll","SUCCESS","Image Base: 0x76c10000, Image Size: 0x15c000"
+"15:17:18,0179396","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\version.dll","SUCCESS","Image Base: 0x741f0000, Image Size: 0x9000"
+"15:17:18,0258697","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\imm32.dll","SUCCESS","Image Base: 0x76e60000, Image Size: 0x60000"
+"15:17:18,0260681","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\msctf.dll","SUCCESS","Image Base: 0x77730000, Image Size: 0xcc000"
+"15:17:18,0337897","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\uxtheme.dll","SUCCESS","Image Base: 0x73c80000, Image Size: 0x80000"
+"15:17:18,0371293","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\shfolder.dll","SUCCESS","Image Base: 0x6f650000, Image Size: 0x5000"
+"15:17:18,0493968","AdwereCleaner.exe","3984","Load Image","C:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll","SUCCESS","Image Base: 0x73d50000, Image Size: 0x19e000"
+"15:17:18,0504602","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\oleaut32.dll","SUCCESS","Image Base: 0x75df0000, Image Size: 0x8f000"
+"15:17:18,0524398","AdwereCleaner.exe","3984","Thread Create","","SUCCESS","Thread ID: 3284"
+"15:17:18,0532666","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\clbcatq.dll","SUCCESS","Image Base: 0x772f0000, Image Size: 0x83000"
+"15:17:18,0555049","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\propsys.dll","SUCCESS","Image Base: 0x709f0000, Image Size: 0xf5000"
+"15:17:18,0566631","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\ntmarta.dll","SUCCESS","Image Base: 0x74130000, Image Size: 0x21000"
+"15:17:18,0568001","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\Wldap32.dll","SUCCESS","Image Base: 0x76d70000, Image Size: 0x45000"
+"15:17:18,0897245","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\IconCodecService.dll","SUCCESS","Image Base: 0x6f640000, Image Size: 0x6000"
+"15:17:18,0974431","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\WindowsCodecs.dll","SUCCESS","Image Base: 0x6e480000, Image Size: 0xfb000"
+"15:17:18,1044415","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\setupapi.dll","SUCCESS","Image Base: 0x75a70000, Image Size: 0x19d000"
+"15:17:18,1046159","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\cfgmgr32.dll","SUCCESS","Image Base: 0x77880000, Image Size: 0x27000"
+"15:17:18,1048322","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\devobj.dll","SUCCESS","Image Base: 0x759e0000, Image Size: 0x12000"
+"15:17:18,1259491","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\profapi.dll","SUCCESS","Image Base: 0x74120000, Image Size: 0xb000"
+"15:17:18,1447646","AdwereCleaner.exe","3984","Thread Create","","SUCCESS","Thread ID: 2844"
+"15:17:18,1870860","AdwereCleaner.exe","3984","Thread Create","","SUCCESS","Thread ID: 3972"
+"15:17:18,2008124","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\apphelp.dll","SUCCESS","Image Base: 0x73c30000, Image Size: 0x4c000"
+"15:17:18,2056504","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\shdocvw.dll","SUCCESS","Image Base: 0x6f5c0000, Image Size: 0x2e000"
+"15:17:18,2064459","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\shdocvw.dll","SUCCESS","Image Base: 0x6e450000, Image Size: 0x2e000"
+"15:17:18,2072003","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\shdocvw.dll","SUCCESS","Image Base: 0x6f5c0000, Image Size: 0x2e000"
+"15:17:18,2116269","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\shdocvw.dll","SUCCESS","Image Base: 0x6e450000, Image Size: 0x2e000"
+"15:17:18,2139986","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\shell32.dll","SUCCESS","Image Base: 0x2840000, Image Size: 0xc4a000"
+"15:17:18,2288845","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\urlmon.dll","SUCCESS","Image Base: 0x76ad0000, Image Size: 0x136000"
+"15:17:18,2290782","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\wininet.dll","SUCCESS","Image Base: 0x77380000, Image Size: 0xf5000"
+"15:17:18,2292461","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\iertutil.dll","SUCCESS","Image Base: 0x77510000, Image Size: 0x1fb000"
+"15:17:18,2294351","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\crypt32.dll","SUCCESS","Image Base: 0x770c0000, Image Size: 0x122000"
+"15:17:18,2295587","AdwereCleaner.exe","3984","Load Image","C:\Windows\SysWOW64\msasn1.dll","SUCCESS","Image Base: 0x77710000, Image Size: 0xc000"
+"15:17:18,2342249","AdwereCleaner.exe","3984","Thread Create","","SUCCESS","Thread ID: 2828"
+"15:17:18,2820006","AdwereCleaner.exe","3984","Process Create","C:\Users\user\AppData\Local\6AdwCleaner.exe","SUCCESS","PID: 1984, Command line: ""C:\Users\user\AppData\Local\6AdwCleaner.exe"" "
+"15:17:18,2820076","6AdwCleaner.exe","1984","Process Start","","SUCCESS","Parent PID: 3984, Command line: ""C:\Users\user\AppData\Local\6AdwCleaner.exe"" , Current directory: C:\Users\user\AppData\Local\, Environment: 
+;	=::=::\
+;	ALLUSERSPROFILE=C:\ProgramData
+;	APPDATA=C:\Users\user\AppData\Roaming
+;	CommonProgramFiles=C:\Program Files (x86)\Common Files
+;	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+;	CommonProgramW6432=C:\Program Files\Common Files
+;	COMPUTERNAME=USER-PC
+;	ComSpec=C:\Windows\system32\cmd.exe
+;	FP_NO_HOST_CHECK=NO
+;	HOMEDRIVE=C:
+;	HOMEPATH=\Users\user
+;	LOCALAPPDATA=C:\Users\user\AppData\Local
+;	LOGONSERVER=\\USER-PC
+;	NUMBER_OF_PROCESSORS=1
+;	OS=Windows_NT
+;	Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+;	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+;	PROCESSOR_ARCHITECTURE=x86
+;	PROCESSOR_ARCHITEW6432=AMD64
+;	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 190 Stepping 0, GenuineIntel
+;	PROCESSOR_LEVEL=6
+;	PROCESSOR_REVISION=be00
+;	ProgramData=C:\ProgramData
+;	ProgramFiles=C:\Program Files (x86)
+;	ProgramFiles(x86)=C:\Program Files (x86)
+;	ProgramW6432=C:\Program Files
+;	PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+;	PUBLIC=C:\Users\Public
+;	SESSIONNAME=Console
+;	SystemDrive=C:
+;	SystemRoot=C:\Windows
+;	TEMP=C:\Users\user\AppData\Local\Temp
+;	TMP=C:\Users\user\AppData\Local\Temp
+;	USERDOMAIN=user-PC
+;	USERNAME=user
+;	USERPROFILE=C:\Users\user
+;	windir=C:\Windows
+;	windows_tracing_flags=3
+;	windows_tracing_logfile=C:\BVTBin\Tests\installpackage\csilogfile.log"
+"15:17:18,2820133","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 3680"
+"15:17:18,2823943","AdwereCleaner.exe","3984","Load Image","C:\Users\user\AppData\Local\6AdwCleaner.exe","SUCCESS","Image Base: 0x2980000, Image Size: 0x2e000"
+"15:17:18,2861876","AdwereCleaner.exe","3984","Thread Exit","","SUCCESS","Thread ID: 3284, User Time: 0.0000000, Kernel Time: 0.0156250"
+"15:17:18,2862828","AdwereCleaner.exe","3984","Thread Exit","","SUCCESS","Thread ID: 2844, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:17:18,2863665","AdwereCleaner.exe","3984","Thread Exit","","SUCCESS","Thread ID: 3972, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:17:18,2864508","AdwereCleaner.exe","3984","Thread Exit","","SUCCESS","Thread ID: 2828, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:17:18,2873858","AdwereCleaner.exe","3984","Thread Exit","","SUCCESS","Thread ID: 3168, User Time: 0.0781250, Kernel Time: 0.1093750"
+"15:17:18,2909705","6AdwCleaner.exe","1984","Load Image","C:\Users\user\AppData\Local\6AdwCleaner.exe","SUCCESS","Image Base: 0xab0000, Image Size: 0x2e000"
+"15:17:18,2910583","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\ntdll.dll","SUCCESS","Image Base: 0x77ae0000, Image Size: 0x19f000"
+"15:17:18,2921928","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\mscoree.dll","SUCCESS","Image Base: 0x7fef2a20000, Image Size: 0x6f000"
+"15:17:18,2923078","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\kernel32.dll","SUCCESS","Image Base: 0x779c0000, Image Size: 0x11f000"
+"15:17:18,2924399","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\KernelBase.dll","SUCCESS","Image Base: 0x7fefdd70000, Image Size: 0x6a000"
+"15:17:18,2940127","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\advapi32.dll","SUCCESS","Image Base: 0x7feff2f0000, Image Size: 0xdb000"
+"15:17:18,2941017","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\msvcrt.dll","SUCCESS","Image Base: 0x7feffd10000, Image Size: 0x9f000"
+"15:17:18,2949975","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\sechost.dll","SUCCESS","Image Base: 0x7feffdb0000, Image Size: 0x1f000"
+"15:17:18,2951523","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\rpcrt4.dll","SUCCESS","Image Base: 0x7feffa20000, Image Size: 0x12c000"
+"15:17:18,2967589","6AdwCleaner.exe","1984","Load Image","C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll","SUCCESS","Image Base: 0x7fef2990000, Image Size: 0x90000"
+"15:17:18,2993730","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\shlwapi.dll","SUCCESS","Image Base: 0x7feff270000, Image Size: 0x71000"
+"15:17:18,2994969","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\gdi32.dll","SUCCESS","Image Base: 0x7feff7a0000, Image Size: 0x67000"
+"15:17:18,2996127","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\user32.dll","SUCCESS","Image Base: 0x778c0000, Image Size: 0xfa000"
+"15:17:18,2997440","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\lpk.dll","SUCCESS","Image Base: 0x7feffb50000, Image Size: 0xe000"
+"15:17:18,2998763","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\usp10.dll","SUCCESS","Image Base: 0x7fefdf60000, Image Size: 0xc9000"
+"15:17:18,3752448","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\imm32.dll","SUCCESS","Image Base: 0x7feff770000, Image Size: 0x2e000"
+"15:17:18,3754170","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\msctf.dll","SUCCESS","Image Base: 0x7fefe030000, Image Size: 0x109000"
+"15:17:18,3814556","AdwereCleaner.exe","3984","Process Exit","","SUCCESS","Exit Status: 0, User Time: 0.0781250 seconds, Kernel Time: 0.1250000 seconds, Private Bytes: 1.982.464, Peak Private Bytes: 2.158.592, Working Set: 7.655.424, Peak Working Set: 8.327.168"
+"15:17:18,3926739","6AdwCleaner.exe","1984","Load Image","C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll","SUCCESS","Image Base: 0x7fee75f0000, Image Size: 0x965000"
+"15:17:18,3959995","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\msvcr100_clr0400.dll","SUCCESS","Image Base: 0x7fef2170000, Image Size: 0xd1000"
+"15:17:18,4894121","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 3136"
+"15:17:18,4996621","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 456"
+"15:17:18,5106742","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 1144"
+"15:17:18,5273197","6AdwCleaner.exe","1984","Load Image","C:\Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\bc19222db4406c472d9aa1f8b6e0f470\mscorlib.ni.dll","SUCCESS","Image Base: 0x7fee6370000, Image Size: 0x1277000"
+"15:17:18,5665848","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\ole32.dll","SUCCESS","Image Base: 0x7feff810000, Image Size: 0x203000"
+"15:17:18,5685304","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\cryptbase.dll","SUCCESS","Image Base: 0x7fefd900000, Image Size: 0xf000"
+"15:17:18,5693257","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\uxtheme.dll","SUCCESS","Image Base: 0x7fefc200000, Image Size: 0x56000"
+"15:17:18,5992761","6AdwCleaner.exe","1984","Load Image","C:\Windows\Microsoft.NET\Framework64\v4.0.30319\nlssorting.dll","SUCCESS","Image Base: 0x7fef51c0000, Image Size: 0x14000"
+"15:17:18,6554543","6AdwCleaner.exe","1984","Load Image","C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll","SUCCESS","Image Base: 0x7fee61f0000, Image Size: 0x177000"
+"15:17:18,6567067","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\oleaut32.dll","SUCCESS","Image Base: 0x7fefeed0000, Image Size: 0xd7000"
+"15:17:18,7076801","6AdwCleaner.exe","1984","Load Image","C:\Windows\assembly\NativeImages_v4.0.30319_64\System\0f8f78b729ce16dd078f5d5f734a1110\System.ni.dll","SUCCESS","Image Base: 0x7fee56c0000, Image Size: 0xb30000"
+"15:17:18,7431673","6AdwCleaner.exe","1984","Load Image","C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Drawing\1266d26c7b7843d308e2705cb8239d55\System.Drawing.ni.dll","SUCCESS","Image Base: 0x7fee5490000, Image Size: 0x228000"
+"15:17:18,7680858","6AdwCleaner.exe","1984","Load Image","C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Windows.Forms\f0acb5c0e7dc2c42c6c61f3aa1278338\System.Windows.Forms.ni.dll","SUCCESS","Image Base: 0x7fee4440000, Image Size: 0x1044000"
+"15:17:18,8320238","6AdwCleaner.exe","1984","Load Image","C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Core\7a93c267da35a5f16b6fa5a10482eb4e\System.Core.ni.dll","SUCCESS","Image Base: 0x7fee3a80000, Image Size: 0x9bd000"
+"15:17:18,8894851","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\cryptsp.dll","SUCCESS","Image Base: 0x7fefd380000, Image Size: 0x18000"
+"15:17:18,8964858","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\rsaenh.dll","SUCCESS","Image Base: 0x7fefcd90000, Image Size: 0x47000"
+"15:17:18,9768023","6AdwCleaner.exe","1984","Load Image","C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Configuration\11581b5eba4b3ff58441c638ab66c742\System.Configuration.ni.dll","SUCCESS","Image Base: 0x7fee3940000, Image Size: 0x133000"
+"15:17:19,0803200","6AdwCleaner.exe","1984","Load Image","C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Xml\5d9f385419332f14eaf937556199856f\System.Xml.ni.dll","SUCCESS","Image Base: 0x7fee3290000, Image Size: 0x6aa000"
+"15:17:19,1517413","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\rasapi32.dll","SUCCESS","Image Base: 0x7fef4880000, Image Size: 0x62000"
+"15:17:19,1533946","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\rasman.dll","SUCCESS","Image Base: 0x7fef4860000, Image Size: 0x1c000"
+"15:17:19,1535722","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\ws2_32.dll","SUCCESS","Image Base: 0x7fefdf10000, Image Size: 0x4d000"
+"15:17:19,1537851","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\nsi.dll","SUCCESS","Image Base: 0x7feffce0000, Image Size: 0x8000"
+"15:17:19,1572489","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\rtutils.dll","SUCCESS","Image Base: 0x7fefb9d0000, Image Size: 0x11000"
+"15:17:19,1800943","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\mswsock.dll","SUCCESS","Image Base: 0x7fefd320000, Image Size: 0x55000"
+"15:17:19,1816178","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\WSHTCPIP.DLL","SUCCESS","Image Base: 0x7fefcb60000, Image Size: 0x7000"
+"15:17:19,1828786","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\wship6.dll","SUCCESS","Image Base: 0x7fefd460000, Image Size: 0x7000"
+"15:17:19,1940064","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 2136"
+"15:17:19,1966071","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\winhttp.dll","SUCCESS","Image Base: 0x7fefa0e0000, Image Size: 0x71000"
+"15:17:19,1975343","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\webio.dll","SUCCESS","Image Base: 0x7fefa070000, Image Size: 0x64000"
+"15:17:19,1991262","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\sspicli.dll","SUCCESS","Image Base: 0x7fefd870000, Image Size: 0x25000"
+"15:17:19,2014382","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\credssp.dll","SUCCESS","Image Base: 0x7fefcf00000, Image Size: 0xa000"
+"15:17:19,2022230","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 2476"
+"15:17:19,2087787","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 2712"
+"15:17:19,2161912","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\IPHLPAPI.DLL","SUCCESS","Image Base: 0x7fefcca0000, Image Size: 0x27000"
+"15:17:19,2171159","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\winnsi.dll","SUCCESS","Image Base: 0x7fefcc90000, Image Size: 0xb000"
+"15:17:19,2182905","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\dhcpcsvc6.dll","SUCCESS","Image Base: 0x7fefa8e0000, Image Size: 0x11000"
+"15:17:19,2195124","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\dhcpcsvc.dll","SUCCESS","Image Base: 0x7fefcb90000, Image Size: 0x18000"
+"15:17:19,2224462","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 3376"
+"15:17:19,2267884","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 3224"
+"15:17:19,2305694","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\cfgmgr32.dll","SUCCESS","Image Base: 0x7fefdb60000, Image Size: 0x36000"
+"15:17:20,1869747","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 2612"
+"15:17:22,3821739","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 3188"
+"15:17:22,3885495","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\RpcRtRemote.dll","SUCCESS","Image Base: 0x7fefd9b0000, Image Size: 0x14000"
+"15:17:22,3907841","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 3296"
+"15:17:24,9797234","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\dnsapi.dll","SUCCESS","Image Base: 0x7fefd010000, Image Size: 0x5b000"
+"15:17:24,9997031","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\rasadhlp.dll","SUCCESS","Image Base: 0x7fef93e0000, Image Size: 0x8000"
+"15:17:25,0068358","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\FWPUCLNT.DLL","SUCCESS","Image Base: 0x7fefa910000, Image Size: 0x53000"
+"15:17:46,1040045","6AdwCleaner.exe","1984","Load Image","C:\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_a4d6a923711520a9\comctl32.dll","SUCCESS","Image Base: 0x7fef2b90000, Image Size: 0xa0000"
+"15:17:46,1204797","6AdwCleaner.exe","1984","Load Image","C:\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\comctl32.dll","SUCCESS","Image Base: 0x7fefc410000, Image Size: 0x1f4000"
+"15:17:46,2117253","6AdwCleaner.exe","1984","Load Image","C:\Windows\winsxs\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17514_none_2b24536c71ed437a\GdiPlus.dll","SUCCESS","Image Base: 0x7fefbfe0000, Image Size: 0x215000"
+"15:17:46,2127605","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 2112"
+"15:17:46,2188754","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\WindowsCodecs.dll","SUCCESS","Image Base: 0x7fefbbb0000, Image Size: 0x12a000"
+"15:17:46,2308154","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\clbcatq.dll","SUCCESS","Image Base: 0x7feff6d0000, Image Size: 0x99000"
+"15:17:46,2331703","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\ieframe.dll","SUCCESS","Image Base: 0x7fef3930000, Image Size: 0xbb7000"
+"15:17:46,2333435","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\psapi.dll","SUCCESS","Image Base: 0x77c90000, Image Size: 0x7000"
+"15:17:46,2341392","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\oleacc.dll","SUCCESS","Image Base: 0x7fef38d0000, Image Size: 0x54000"
+"15:17:46,2343545","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\shell32.dll","SUCCESS","Image Base: 0x7fefe140000, Image Size: 0xd88000"
+"15:17:46,2346541","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\iertutil.dll","SUCCESS","Image Base: 0x7fefefb0000, Image Size: 0x259000"
+"15:17:46,2503977","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\sxs.dll","SUCCESS","Image Base: 0x7fefd910000, Image Size: 0x91000"
+"15:17:46,3923513","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\dwmapi.dll","SUCCESS","Image Base: 0x7fefc260000, Image Size: 0x18000"
+"15:17:46,4089356","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\shfolder.dll","SUCCESS","Image Base: 0x7fef51b0000, Image Size: 0x7000"
+"15:18:26,1990106","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 2476, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:18:27,1832223","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 3224, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:18:29,1829154","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 2612, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:18:29,1831765","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 3852"
+"15:18:52,3869448","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 3296, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:19:32,3894297","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 3188, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:19:36,1835524","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 3376, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:19:36,1839453","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 3660"
+"15:19:53,9583894","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\wininet.dll","SUCCESS","Image Base: 0x7fefdde0000, Image Size: 0x12a000"
+"15:19:53,9586233","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\urlmon.dll","SUCCESS","Image Base: 0x7feffb60000, Image Size: 0x178000"
+"15:19:53,9588368","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\crypt32.dll","SUCCESS","Image Base: 0x7fefdbe0000, Image Size: 0x16d000"
+"15:19:53,9590049","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\msasn1.dll","SUCCESS","Image Base: 0x7fefdab0000, Image Size: 0xf000"
+"15:19:53,9677629","6AdwCleaner.exe","1984","Load Image","C:\Windows\System32\profapi.dll","SUCCESS","Image Base: 0x7fefda10000, Image Size: 0xf000"
+"15:19:53,9964833","6AdwCleaner.exe","1984","Thread Create","","SUCCESS","Thread ID: 3060"
+"15:19:54,0913126","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 456, User Time: 0.0000000, Kernel Time: 0.0156250"
+"15:19:54,0915010","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 3660, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:19:54,0915875","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 3852, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:19:54,0916748","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 2112, User Time: 0.0000000, Kernel Time: 0.0156250"
+"15:19:54,0919265","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 2712, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:19:54,0920109","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 2136, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:19:54,0920930","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 1144, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:19:54,0921834","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 3136, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:19:54,0923952","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 3060, User Time: 0.0000000, Kernel Time: 0.0000000"
+"15:19:54,1003629","6AdwCleaner.exe","1984","Thread Exit","","SUCCESS","Thread ID: 3680, User Time: 0.1875000, Kernel Time: 0.3750000"
+"15:19:54,2392940","6AdwCleaner.exe","1984","Process Exit","","SUCCESS","Exit Status: 0, User Time: 0.1875000 seconds, Kernel Time: 0.4062500 seconds, Private Bytes: 34.902.016, Peak Private Bytes: 35.438.592, Working Set: 34.725.888, Peak Working Set: 35.082.240"
+
